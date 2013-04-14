@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+export NETIO_NETMAP=./NETMAP
+export IOURC=./iourcrouter
+  ../wrapper-linux -m ../router -p 2001 -- -e 1 -s 1 -n 1024 -m 128 -R -U 1 &
+   sleep 5
+  ../wrapper-linux -m ../router -p 2002 -- -e 1 -s 1 -n 1024 -m 128 -R -U 2 &
+   sleep 5
+  ../wrapper-linux -m ../router -p 2003 -- -e 1 -s 1 -n 1024 -m 128 -R -U 3 &
+   sleep 5
+  ../wrapper-linux -m ../router -p 2004 -- -e 1 -s 1 -n 1024 -m 128 -R -U 4 &
+   sleep 5
+  ../wrapper-linux -m ../router -p 2005 -- -e 1 -s 1 -n 1024 -m 128 -R -U 5 &
+   sleep 5
+  ../wrapper-linux -m ../router -p 2006 -- -e 1 -s 1 -n 1024 -m 128 -R -U 6 &
+   sleep 5
+  
+   
+unset NETIO_NETMAP
+sleep 10
+echo "------------------------------------------"
+echo "All Routers started! -- by http://flyxj.cn"
+echo ""

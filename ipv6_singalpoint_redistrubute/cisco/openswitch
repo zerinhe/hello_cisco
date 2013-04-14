@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+export NETIO_NETMAP=./NETMAP
+export IOURC=./iourcswitch
+  ../wrapper-linux -m ../switch -p 3001 -- -e 4 -s 1 -n 1024 -m 128 -R -U 11 &
+   sleep 5
+  ../wrapper-linux -m ../switch -p 3002 -- -e 4 -s 1 -n 1024 -m 128 -R -U 12 &
+   sleep 5
+  ../wrapper-linux -m ../switch -p 3003 -- -e 4 -s 1 -n 1024 -m 128 -R -U 13 &
+   sleep 5
+   
+unset NETIO_NETMAP
+sleep 10
+echo "------------------------------------------"
+echo "All Switchs started!"
+echo ""
