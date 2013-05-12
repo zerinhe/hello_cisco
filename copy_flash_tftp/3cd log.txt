@@ -1,0 +1,89 @@
+May 11, 2013 15:06:02 Session 1, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:06:02 Session 1, Peer 192.168.10.1 Client requests PUT of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:06:22 Session 1, Peer 192.168.10.1 Rcv of c3750-ipservices-mz.122-25.SEE2.bin done. 7460386 bytes in 20 secs.(364 KB/sec)
+May 11, 2013 15:36:55 Session 2, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:36:55 Session 2, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:36:55 Session 2, Peer 192.168.10.1 Got socket error. Aborting! Code = 10054
+May 11, 2013 15:36:55 Session 3, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:36:55 Session 3, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:36:55 Session 3, Peer 192.168.10.1 Error received from peer: Session terminated
+May 11, 2013 15:36:56 Session 4, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:36:56 Session 4, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:36:56 Session 4, Peer 192.168.10.1 Got socket error. Aborting! Code = 10054
+May 11, 2013 15:36:56 Session 5, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:36:56 Session 5, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:37:57 Session 5, Peer 192.168.10.1 Retry. Block = 10241. Retries left = 9
+May 11, 2013 15:38:09 Session 5, Peer 192.168.10.1 Retry. Block = 10497. Retries left = 9
+May 11, 2013 15:38:16 Session 5, Peer 192.168.10.1 Retry. Block = 10625. Retries left = 9
+May 11, 2013 15:38:21 Session 5, Peer 192.168.10.1 Retry. Block = 10753. Retries left = 9
+May 11, 2013 15:38:28 Session 5, Peer 192.168.10.1 Retry. Block = 10881. Retries left = 9
+May 11, 2013 15:38:33 Session 5, Peer 192.168.10.1 Retry. Block = 11009. Retries left = 9
+May 11, 2013 15:38:40 Session 5, Peer 192.168.10.1 Retry. Block = 11137. Retries left = 9
+May 11, 2013 15:38:50 Session 5, Peer 192.168.10.1 Retry. Block = 11265. Retries left = 9
+May 11, 2013 15:38:56 Session 5, Peer 192.168.10.1 Retry. Block = 11393. Retries left = 9
+May 11, 2013 15:39:02 Session 5, Peer 192.168.10.1 Retry. Block = 11521. Retries left = 9
+May 11, 2013 15:39:12 Session 5, Peer 192.168.10.1 Retry. Block = 11649. Retries left = 9
+May 11, 2013 15:39:19 Session 5, Peer 192.168.10.1 Retry. Block = 11777. Retries left = 9
+May 11, 2013 15:39:24 Session 5, Peer 192.168.10.1 Retry. Block = 11905. Retries left = 9
+May 11, 2013 15:39:31 Session 5, Peer 192.168.10.1 Retry. Block = 12033. Retries left = 9
+May 11, 2013 15:39:38 Session 5, Peer 192.168.10.1 Retry. Block = 12161. Retries left = 9
+May 11, 2013 15:39:48 Session 5, Peer 192.168.10.1 Retry. Block = 12289. Retries left = 9
+May 11, 2013 15:39:53 Session 5, Peer 192.168.10.1 Retry. Block = 12289. Retries left = 8
+May 11, 2013 15:39:58 Session 5, Peer 192.168.10.1 Retry. Block = 12289. Retries left = 7
+May 11, 2013 15:40:03 Session 5, Peer 192.168.10.1 Retry. Block = 12289. Retries left = 6
+May 11, 2013 15:40:03 Session 5, Peer 192.168.10.1 Error received from peer: Session terminated
+May 11, 2013 15:45:44 Session 6, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:45:44 Session 6, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:45:44 Session 6, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:44 Session 6, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:49 Session 7, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:45:49 Session 7, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:45:49 Session 7, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:49 Session 7, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:53 Session 8, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:45:53 Session 8, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:45:53 Session 8, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:53 Session 8, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:57 Session 9, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:45:57 Session 9, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:45:57 Session 9, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:45:57 Session 9, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:46:01 Session 10, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:46:01 Session 10, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:46:01 Session 10, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:46:01 Session 10, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:46:05 Session 11, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:46:05 Session 11, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.
+May 11, 2013 15:46:05 Session 11, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:46:05 Session 11, Peer 192.168.10.1 Could not open requested file for reading
+May 11, 2013 15:51:42 Session 12, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:51:42 Session 12, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:51:42 Session 12, Peer 192.168.10.1 Got socket error. Aborting! Code = 10054
+May 11, 2013 15:51:42 Session 13, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:51:42 Session 13, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:51:42 Session 13, Peer 192.168.10.1 Error received from peer: Session terminated
+May 11, 2013 15:51:43 Session 14, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:51:43 Session 14, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:51:43 Session 14, Peer 192.168.10.1 Got socket error. Aborting! Code = 10054
+May 11, 2013 15:51:43 Session 15, Peer 192.168.10.1 TFTP Server session started
+May 11, 2013 15:51:43 Session 15, Peer 192.168.10.1 Client requests GET of file E:\360Downloads\c3750-ipservices-mz.122-25.SEE2.bin.
+May 11, 2013 15:53:11 Session 15, Peer 192.168.10.1 Retry. Block = 10369. Retries left = 9
+May 11, 2013 15:53:21 Session 15, Peer 192.168.10.1 Retry. Block = 10497. Retries left = 9
+May 11, 2013 15:53:33 Session 15, Peer 192.168.10.1 Retry. Block = 10753. Retries left = 9
+May 11, 2013 15:53:39 Session 15, Peer 192.168.10.1 Retry. Block = 10881. Retries left = 9
+May 11, 2013 15:53:45 Session 15, Peer 192.168.10.1 Retry. Block = 11009. Retries left = 9
+May 11, 2013 15:53:55 Session 15, Peer 192.168.10.1 Retry. Block = 11137. Retries left = 9
+May 11, 2013 15:54:01 Session 15, Peer 192.168.10.1 Retry. Block = 11265. Retries left = 9
+May 11, 2013 15:54:07 Session 15, Peer 192.168.10.1 Retry. Block = 11393. Retries left = 9
+May 11, 2013 15:54:14 Session 15, Peer 192.168.10.1 Retry. Block = 11521. Retries left = 9
+May 11, 2013 15:54:19 Session 15, Peer 192.168.10.1 Retry. Block = 11649. Retries left = 9
+May 11, 2013 15:54:26 Session 15, Peer 192.168.10.1 Retry. Block = 11777. Retries left = 9
+May 11, 2013 15:54:31 Session 15, Peer 192.168.10.1 Retry. Block = 11905. Retries left = 9
+May 11, 2013 15:54:38 Session 15, Peer 192.168.10.1 Retry. Block = 12033. Retries left = 9
+May 11, 2013 15:54:44 Session 15, Peer 192.168.10.1 Retry. Block = 12161. Retries left = 9
+May 11, 2013 15:54:50 Session 15, Peer 192.168.10.1 Retry. Block = 12289. Retries left = 9
+May 11, 2013 15:54:57 Session 15, Peer 192.168.10.1 Retry. Block = 12417. Retries left = 9
+May 11, 2013 15:55:09 Session 15, Peer 192.168.10.1 Retry. Block = 12545. Retries left = 9
+May 11, 2013 15:55:14 Session 15, Peer 192.168.10.1 Retry. Block = 12545. Retries left = 8
+May 11, 2013 15:55:19 Session 15, Peer 192.168.10.1 Retry. Block = 12545. Retries left = 7
+May 11, 2013 15:55:20 Session 15, Peer 192.168.10.1 Error received from peer: Session terminated

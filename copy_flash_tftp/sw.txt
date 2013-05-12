@@ -1,0 +1,90 @@
+sw2#show ve
+sw2#show version ?
+  |  Output modifiers
+  <cr>
+
+sw2#show version 
+Cisco IOS Software, C3750 Software (C3750-IPSERVICES-M), Version 12.2(25)SEE2, RELEASE SOFTWARE (fc1)
+Copyright (c) 1986-2006 by Cisco Systems, Inc.
+Compiled Fri 28-Jul-06 08:46 by yenanh
+Image text-base: 0x00003000, data-base: 0x010CE290
+
+ROM: Bootstrap program is C3750 boot loader
+BOOTLDR: C3750 Boot Loader (C3750-HBOOT-M) Version 12.2(25r)SEC, RELEASE SOFTWARE (fc4)
+
+sw2 uptime is 1 hour, 24 minutes
+System returned to ROM by power-on
+System image file is "flash:/c3750-ipservices-mz.122-25.SEE2/c3750-ipservices-mz.122-25.SEE2.bin"
+
+cisco WS-C3750-24TS (PowerPC405) processor (revision M0) with 118784K/12280K bytes of memory.
+Processor board ID CAT1038NJ48
+Last reset from power-on
+2 Virtual Ethernet interfaces
+24 FastEthernet interfaces
+2 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 00:19:56:8F:C6:80
+Motherboard assembly number     : 73-9677-10
+Power supply part number        : 341-0034-01
+Motherboard serial number       : CAT10385687
+Power supply serial number      : DTH10371091
+Model revision number           : M0
+Motherboard revision number     : A0
+Model number                    : WS-C3750-24TS-E
+System serial number            : CAT1038NJ48
+Top Assembly Part Number        : 800-26382-02
+Top Assembly Revision Number    : D0
+Version ID                      : V05
+CLEI Code Number                : CNMV200CRE
+Hardware Board Revision Number  : 0x01
+
+
+Switch   Ports  Model              SW Version              SW Image            
+------   -----  -----              ----------              ----------          
+*    1   26     WS-C3750-24TS      12.2(25)SEE2            C3750-IPSERVICES-M  
+
+
+Configuration register is 0xF
+
+sw2#copy fla
+sw2#copy flash?
+flash1:  flash:  
+
+sw2#copy flash: ?
+  flash1:         Copy to flash1: file system
+  flash:          Copy to flash: file system
+  ftp:            Copy to ftp: file system
+  http:           Copy to http: file system
+  null:           Copy to null: file system
+  nvram:          Copy to nvram: file system
+  rcp:            Copy to rcp: file system
+  running-config  Update (merge with) current system configuration
+  startup-config  Copy to startup configuration
+  system:         Copy to system: file system
+  tftp:           Copy to tftp: file system
+  vb:             Copy to vb: file system
+
+sw2#copy flash: tf
+sw2#copy flash: tftp:
+Source filename []? 
+?File name not specified
+%Error parsing filename (Bad file number)
+sw2#
+sw2#
+sw2#copy fl
+sw2#copy flash:flash:/c3750-ipservices-mz.122-25.SEE2/c3750-ipservices-mz.122-25.SEE2.bin
+% Incomplete command.
+
+sw2#
+sw2#copy flash:/c3750-ipservices-mz.122-25.SEE2/c3750-ipservices-mz.122-25.SEE2.bin tf
+sw2#copy flash:/c3750-ipservices-mz.122-25.SEE2/c3750-ipservices-mz.122-25.SEE2.bin tftp:?
+  tftp:  A URL beginning with this prefix
+
+sw2#copy flash:/c3750-ipservices-mz.122-25.SEE2/c3750-ipservices-mz.122-25.SEE2.bin tftp:
+Address or name of remote host []? 192.168.10.10
+Destination filename [c3750-ipservices-mz.122-25.SEE2.bin]? 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+7460386 bytes copied in 19.747 secs (377798 bytes/sec)
+sw2#
