@@ -1,0 +1,3 @@
+在R2 R3上没有敲
+#neighbor 3.3.3.3 active
+#neighbor 3.3.3.3 send-community
